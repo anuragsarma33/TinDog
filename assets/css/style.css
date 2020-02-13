@@ -1,0 +1,24 @@
+.jumbotron {
+    text-align: center;
+    background-color: rgb(255, 30, 14);
+    color: #fff;
+}
+
+.box {
+    padding: 20px;
+    background-color: gray;
+    text-align: justify;
+    color: #fff;
+}
+
+.box-1 {
+    background-color: rgb(46, 46, 247);
+    color: #fff;
+    padding: 20px;
+}
+
+.box-2 {
+    background-color: yellow;
+    color: #fff;
+    padding: 20px;
+}

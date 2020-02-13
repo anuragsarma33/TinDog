@@ -1,0 +1,5 @@
+@media(max-width:768px) {
+    .jumbotron {
+        background-color: rgb(50, 216, 0);
+    }
+}

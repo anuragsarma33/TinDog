@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="jumbotron">Learn Bootstrap</h1>
+
+        <ul class="nav justify-content-end nav-tabs ">
+            <li class="nav-item"><a class="nav-link" href="#home" data-toggle="tab">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#product" data-toggle="tab">Product</a></li>
+
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" role="button" data-toggle="dropdown">Services <span
+                        class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-header"> Front End Technologies</li>
+                    <li><a href="">HTML</a> </li>
+                    <li><a href="">CSS</a></li>
+                    <li><a href="">JS</a></li>
+                    <li><a href="">Bootstrap</a></li>
+                    <li><a href="">React</a></li>
+                    <li class="divider"></li>
+                </ul>
+            </li>
+
+            <li class="nav-item"><a href="#contact" class="nav-link" data-toggle="tab">Contact</a></li>
+        </ul>
+        <div class="tab-content text-center">
+            <div class="tab-pane fade" id="home">
+                <p class="well">
+                    This is Home content....<p> This is Home content.... This is Home content.... This is Home
+                        content....
+                        This is Home content....</p>
+                    </h1>
+            </div>
+            <div class="tab-pane fade" id="product">
+                <h1 class="well">
+                    This is Product content...<p>This is Product content...This is Product content...This is Product
+                        content...</p>
+                </h1>
+            </div>
+            <div class="tab-pane fade" id="service">
+                <h1 class="well">This is Service content...</h1>
+                <p>This is Service content...This is Service content...This is Service content...This is Service
+                    content...</p>
+            </div>
+            <div class="tab-pane fade" id="contact">
+                <h1 class="well">This is Contact content...</h1>
+                <p>This is Contact content...This is Contact content...This is Contact content...</p>
+            </div>
+        </div>
+        <div class="panel panel-primary">
+            <div class="panel-header">
+                <div class="panel-title">
+                    <h1 class="well"><a href="#coll" data-toggle="collapse">Bootstrap Panel</a></h1>
+                </div>
+            </div>
+            <div class="panel-collapse fade" id="coll">
+                <div class="panel-body text-center">
+                    <strong>This is body section...</strong>
+                </div>
+                <div class="panel-footer text-center">
+                    <p>This is panel-footer</p>
+                </div>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="btn btn-primary" data-toggle="dropdown">Submit <span class="caret"> </span></button>
+            <ul class="dropdown-menu">
+                <li class="dropdown-header">Front end tech</li>
+                <li class=""><a href="">HTML</a></li>
+                <li><a href="">CSS</a></li>
+                <li><a href="">Bootstrap</a></li>
+                <li><a href="">JS</a></li>
+                <li><a href="">React</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Back end Tech</li>
+                <li><a href="">PHP</a></li>
+                <li><a href="">Node JS</a></li>
+                <li><a href="">Mongo DB</a></li>
+                <li><a href="">.net</a></li>
+            </ul>
+        </div>
+    </div>
+    <script src="assets/js/jquery-3.4.1.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+</body>
+
+</html>
